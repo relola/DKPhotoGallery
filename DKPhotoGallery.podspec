@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
     s.frameworks    = 'Foundation', 'UIKit', 'Photos', 'WebKit', 'AVFoundation', 'AVKit', 'AssetsLibrary', 'MobileCoreServices'
     s.requires_arc  = true
     s.swift_version = '4.2'
+    s.resources = 'DKPhotoGallery.bundle'
     s.dependency 'SDWebImage'
     s.dependency 'SDWebImageFLPlugin'
 
