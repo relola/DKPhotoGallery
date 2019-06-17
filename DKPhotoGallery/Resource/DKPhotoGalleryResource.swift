@@ -73,8 +73,7 @@ public class DKPhotoGalleryResource {
 private extension Bundle {
     
     class func photoGalleryResourceBundle() -> Bundle {
-        let assetPath = Bundle(for: DKPhotoGalleryResource.self).resourcePath!
-        return Bundle(path: (assetPath as NSString).appendingPathComponent("DKPhotoGallery.bundle"))!
+         return Bundle.main
     }
     
 }

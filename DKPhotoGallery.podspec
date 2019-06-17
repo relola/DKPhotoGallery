@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name          = 'DKPhotoGallery'
-    s.version       = '0.0.14'
+    s.version       = '0.0.13'
     s.summary       = 'A Photo Gallery / Browser / Viewer for iOS written in Swift'
     s.homepage      = 'https://github.com/zhangao0086/DKPhotoGallery'
     s.license       = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
     s.frameworks    = 'Foundation', 'UIKit', 'Photos', 'WebKit', 'AVFoundation', 'AVKit', 'AssetsLibrary', 'MobileCoreServices'
     s.requires_arc  = true
     s.swift_version = '4.2'
-    s.resources = 'DKPhotoGallery.bundle'
     s.dependency 'SDWebImage'
     s.dependency 'SDWebImageFLPlugin'
 
